@@ -2,11 +2,13 @@
 .DS_Store
 Thumbs.db
 
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
-*.sqlite3
+
+# Logs & local DB
 *.log
+*.sqlite3
 
 # Virtual environment
 venv/
@@ -18,7 +20,7 @@ media/
 staticfiles/
 db.sqlite3
 
-# Migrations (optional, keep if you want migrations tracked)
+# Migrations (optional – keep __init__.py so Django finds packages)
 */migrations/*.py
 */migrations/*.pyc
 !*/migrations/__init__.py
